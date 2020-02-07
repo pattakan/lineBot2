@@ -25,9 +25,9 @@ def callback():
     while True
     if (userText=='สวัสดี'):
         sendText(user,'ควย')
-    elif(userText=='สบายดีบ่'):
+    elif (userText=='สบายดีบ่'):
         sendText(user,'ไม่บอกหรอก')
-    else
+    else :
        sendText(user,'ห้ะ')
     return '',200
 
